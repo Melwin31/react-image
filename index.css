@@ -1,0 +1,68 @@
+
+*{
+  margin: 0px;
+  padding:0px;
+}
+nav{
+  text-align: center;
+  margin-top:25px;
+}
+artica img{
+  width: 270px;
+  height: 270px;
+  margin:8px;
+  border-radius: 5px;
+}
+artica{
+  display: flex;
+  justify-content: center;
+  gap:5px;
+  margin: 5px;
+margin-top: 25px;
+}
+artica_1,artica_2,artica_3,artica_4{
+  border:1px solid grey;
+  margin:5px;
+  box-shadow: 1px 2px 1px 1px;
+  text-align: center;
+  border-radius: 5px;
+  background-color:beige;
+ 
+}
+artica_1,artica_2,artica_3,artica_4 p{
+  margin-bottom: 3px;
+}
+one img{
+  width: 270px;
+  height: 270px;
+  margin:8px;
+  border-radius: 5px;
+}
+one{
+  display: flex;
+  justify-content: center;
+  gap:5px;
+  margin: 5px;
+}
+artica_5,artica_6,artica_7,artica_8{
+  border:1px solid grey;
+  margin:5px;
+  box-shadow: 1px 2px 1px 1px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  background-color:beige;
+}
+artica_5,artica_6,artica_7,artica_8 p{
+  margin-bottom: 3px;
+}
+@media only screen and (max-width: 600px) {
+  artica{
+    display: grid;
+  grid-template-columns: auto auto;
+  }
+  one{
+    display: grid;
+  grid-template-columns: auto auto;
+  }
+}
